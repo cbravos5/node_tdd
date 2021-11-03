@@ -6,6 +6,11 @@
     "test": "jest --watch",
     "test:staged": "jest --passWithNoTests"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
