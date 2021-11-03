@@ -4,12 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watch",
-    "test:staged": "jest --passWithNoTests"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "test:staged": "jest --passWithNoTests",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
